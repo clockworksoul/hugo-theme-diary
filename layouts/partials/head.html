@@ -9,6 +9,9 @@
 <meta name="description" content="{{ .Params.description }}">
 <meta name="renderer" content="webkit">
 <meta name="theme-color" content="#ffffff">
+
+{{ template "_internal/twitter_cards.html" . }}
+
 <!-- metadata -->
 
 {{ if .Site.GoogleAnalytics }}
